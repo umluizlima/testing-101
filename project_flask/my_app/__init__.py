@@ -1,7 +1,11 @@
 from flask import Flask
-app = Flask(__name__)
 
 
-@app.route("/")
-def home():
-    return "Howdy from home!"
+def create_app():
+    app = Flask(__name__)
+
+    @app.route("/")
+    def home():
+        return "Howdy from home!"
+
+    return app
