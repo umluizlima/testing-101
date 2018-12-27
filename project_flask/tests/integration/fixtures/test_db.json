@@ -1,0 +1,20 @@
+{
+  "_default": {
+    "1": {
+      "type": "coconut",
+      "count": 21
+    },
+    "2": {
+      "type": "orange",
+      "count": 12
+    },
+    "3": {
+      "type": "cherry",
+      "count": 5
+    },
+    "4": {
+      "type": "banana",
+      "count": 7
+    }
+  }
+}
