@@ -2,3 +2,4 @@ pytest
 nose2
 flask
 tinydb
+tox
