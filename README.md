@@ -1,4 +1,5 @@
 # Testing 101
+[![Build Status](https://travis-ci.com/umluizlima/testing-101.svg?branch=master)](https://travis-ci.com/umluizlima/testing-101)
 > Real Python's testing tutorial
 
 This repo contains all code developed while following Real Python's testing
