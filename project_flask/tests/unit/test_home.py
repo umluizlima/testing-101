@@ -11,8 +11,7 @@ class MyTestCase(unittest.TestCase):
         """
         Sets up the Flask application for testing
         """
-        app = create_app()
-        app.testing = True
+        app = create_app('config.TestingConfig')
         self.app = app.test_client()
 
     def test_home_status_code_equals_200(self):
